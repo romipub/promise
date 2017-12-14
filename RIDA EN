@@ -1,0 +1,358 @@
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width:30%"> </td>
+			<td style="width: 40%; text-align: center;"><img alt="" src="/servlet/servlet.ImageServer?id=0159E0000009VmoQAE&amp;oid=00D9E000000DCSEUA4" /></td>
+			<td style="width:30%"> </td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<br />
+<span style="font-family:arial,helvetica,sans-serif;"><span style="color:#808080;"><span style="font-size:20px;"><strong>MEETING MINUTES</strong></span></span></span>
+
+<hr />
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Workshop Date:</span></td>
+			<td>{{!Workshop__c.date__c M/d/yy}}</td>
+		</tr>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Workshop Name:</span></td>
+			<td>{{!Workshop__c.name}}</td>
+		</tr>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Workshop Objective(s):</span></td>
+			<td>{{!Workshop__c.objectif__c}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr />
+<div style="text-align: center;"> </div>
+<span style="font-family:arial,helvetica,sans-serif;"> &nbsp;</span>
+
+<table bgcolor="#EFEFEF" border="0" height="31" width="1782">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#333333;"><strong>PARTICIPANTS</strong></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:284********************-->
+<style type="text/css">table.table284 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table284header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table284footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table284RowEven{}
+.table284RowOdd{background-color:#cdcdcd;}
+.table284col0{text-align:left;}
+.table284col1{text-align:left;}
+.table284col2{text-align:left;}
+.table284col3{text-align:left;}
+</style>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:79********************-->
+<style type="text/css">table.table79 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table79header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table79footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table79RowEven{border:solid black 1px;}
+.table79RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table79col0{border:solid black 1px;text-align:left;}
+.table79col1{border:solid black 1px;text-align:left;}
+</style>
+<table class="table79">
+	<tbody>
+		<tr>
+			<th class="table79header">Participant</th>
+			<th class="table79header">Statut</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table79</class>
+<listname>participants__r</listname>
+<column>participant__r.Name</column>
+<column>statut__c</column>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:79********************--><br />
+<span style="font-family:arial,helvetica,sans-serif;"></span>
+
+<table bgcolor="#EFEFEF" border="0" height="31" width="1782">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#333333;"><strong>ACTIONS</strong></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:388********************-->
+<style type="text/css">table.table388 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table388header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table388footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table388RowEven{border:solid black 1px;}
+.table388RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table388col0{border:solid black 1px;text-align:left;}
+.table388col1{border:solid black 1px;text-align:left;}
+.table388col2{border:solid black 1px;text-align:left;}
+.table388col3{border:solid black 1px;text-align:left;}
+.table388col4{border:solid black 1px;text-align:left;}
+</style>
+<table class="table388">
+	<tbody>
+		<tr>
+			<th class="table388header">Sujet</th>
+			<th class="table388header">Description</th>
+			<th class="table388header">Assigné à</th>
+			<th class="table388header">Status</th>
+			<th class="table388header">Due Date</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table388</class>
+<listname>tasks</listname>
+<column>subject</column>
+<column>description</column>
+<column>assignedto__c</column>
+<column>status__c</column>
+<column>date_attendue__c</column>
+<where>IDA__c=&apos;Action&apos;</where>
+<orderby>Number__c</orderby>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:388********************--><br />
+<span style="font-family:arial,helvetica,sans-serif;"></span>
+
+<table bgcolor="#EFEFEF" border="0" height="31" width="1782">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#333333;"><strong>INFORMATIONS</strong></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:347********************-->
+<style type="text/css">table.table347 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table347header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table347footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table347RowEven{border:solid black 1px;}
+.table347RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table347col0{border:solid black 1px;text-align:left;}
+.table347col1{border:solid black 1px;text-align:left;}
+.table347col2{border:solid black 1px;text-align:left;}
+.table347col3{border:solid black 1px;text-align:left;}
+</style>
+<table class="table347">
+	<tbody>
+		<tr>
+			<th class="table347header">N.</th>
+			<th class="table347header">IDA</th>
+			<th class="table347header">Sujet</th>
+			<th class="table347header">Description</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table347</class>
+<listname>tasks</listname>
+<column>number__c</column>
+<column>ida__c</column>
+<column>subject</column>
+<column>description</column>
+<where>IDA__c!=&apos;Action&apos;</where>
+<orderby>Number__c</orderby>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:347********************--><br />
+<br />
+<br />
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:828********************-->
+<table bgcolor="#EFEFEF" border="0" height="31" width="1788">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="background-color: rgb(239, 239, 239);"><b>REQUIREMENTS</b></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:306********************-->
+<style type="text/css">table.table306 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table306header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table306footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table306RowEven{border:solid black 1px;}
+.table306RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table306col0{border:solid black 1px;text-align:left;}
+.table306col1{border:solid black 1px;text-align:left;}
+.table306col2{border:solid black 1px;text-align:left;}
+.table306col3{border:solid black 1px;text-align:left;}
+</style>
+<table class="table306">
+	<tbody>
+		<tr>
+			<th class="table306header">Processus</th>
+			<th class="table306header">Référence</th>
+			<th class="table306header">Titre</th>
+			<th class="table306header">Description</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table306</class>
+<listname>exigences__r</listname>
+<column>Processus__r.name</column>
+<column>name</column>
+<column>titre__c</column>
+<column>description__c</column>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:306********************-->
+
+<div style="text-align: center;"><strong><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:20px;color:#808080;">END OF DOCUMENT</span></span></strong></div>
+<style type="text/css">
+</style>
+<br />
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table281 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table281header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table281footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table281RowEven{}
+.table281RowOdd{background-color:#cdcdcd;}
+.table281col0{text-align:left;}
+.table281col1{text-align:left;}
+.table281col2{text-align:left;}
+.table281col3{text-align:left;}
+</style>
+<style type="text/css">table.table130 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table130header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table130footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table130RowEven{border:solid black 1px;}
+.table130RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table130col0{border:solid black 1px;text-align:left;}
+.table130col1{border:solid black 1px;text-align:left;}
+.table130col2{border:solid black 1px;text-align:left;}
+.table130col3{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table603 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table603header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table603footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table603RowEven{border:solid black 1px;}
+.table603RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table603col0{border:solid black 1px;text-align:left;}
+.table603col1{border:solid black 1px;text-align:left;}
+.table603col2{border:solid black 1px;text-align:left;}
+.table603col3{border:solid black 1px;text-align:left;}
+.table603col4{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<br />
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table272 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table272header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table272footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table272RowEven{}
+.table272RowOdd{background-color:#cdcdcd;}
+.table272col0{text-align:left;}
+.table272col1{text-align:left;}
+.table272col2{text-align:left;}
+.table272col3{text-align:left;}
+</style>
+<style type="text/css">table.table864 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table864header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table864footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table864RowEven{border-top:solid black 1px;border-bottom:solid black 1px;}
+.table864RowOdd{background-color:#cdcdcd;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table864col0{border-top:solid black 1px;border-bottom:solid black 1px;border-left:solid black 1px;text-align:left;}
+.table864col1{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col2{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col3{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col4{border-top:solid black 1px;border-bottom:solid black 1px;border-right:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">table.table750 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table750header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table750footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table750RowEven{border:solid black 1px;}
+.table750RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table750col0{border:solid black 1px;text-align:left;}
+.table750col1{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table649 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table649header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table649footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table649RowEven{border:solid black 1px;}
+.table649RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table649col0{border:solid black 1px;text-align:left;}
+.table649col1{border:solid black 1px;text-align:left;}
+.table649col2{border:solid black 1px;text-align:left;}
+.table649col3{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">table.table828 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table828header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table828footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table828RowEven{border-top:solid black 1px;border-bottom:solid black 1px;}
+.table828RowOdd{background-color:#cdcdcd;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table828col0{border-top:solid black 1px;border-bottom:solid black 1px;border-left:solid black 1px;text-align:left;}
+.table828col1{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col2{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col3{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col4{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col5{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col6{border-top:solid black 1px;border-bottom:solid black 1px;border-right:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table388 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table388header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table388footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table388RowEven{border:solid black 1px;}
+.table388RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table388col0{border:solid black 1px;text-align:left;}
+.table388col1{border:solid black 1px;text-align:left;}
+.table388col2{border:solid black 1px;text-align:left;}
+.table388col3{border:solid black 1px;text-align:left;}
+.table388col4{border:solid black 1px;text-align:left;}
+</style>
