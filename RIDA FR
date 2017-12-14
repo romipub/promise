@@ -1,0 +1,300 @@
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width: 30%; text-align: center;"><img alt="" height="41" src="/servlet/servlet.ImageServer?id=0159E0000005eKgQAI&amp;oid=00D9E000000DCSEUA4" width="154" /></td>
+			<td style="width: 40%; text-align: center;"><img alt="" height="72" src="/servlet/servlet.ImageServer?id=0159E0000009VmoQAE&amp;oid=00D9E000000DCSEUA4" width="166" /></td>
+			<td style="width: 30%; text-align: center;"><span style="font-size:26px;"><strong>PROJET CRM</strong></span></td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<br />
+<span style="font-family:arial,helvetica,sans-serif;"><span style="color:#808080;"><span style="font-size:20px;"><strong>MEETING MINUTES</strong></span></span></span>
+
+<hr />
+<table style="width:100%">
+	<tbody>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Date Atelier :</span></td>
+			<td>{{!Workshop__c.date__c M/d/yy}}</td>
+		</tr>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Titre:</span></td>
+			<td>{{!Workshop__c.name}}</td>
+		</tr>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Objectif(s):</span></td>
+			<td>{{!Workshop__c.objectif__c}}</td>
+		</tr>
+		<tr>
+			<td style="width:30%"><span style="font-family:arial,helvetica,sans-serif;">Ordre du jour:</span></td>
+			<td><span style="font-family:arial,helvetica,sans-serif;">{{!Workshop__c.agenda__c}}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<hr />
+<div style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></div>
+
+<table bgcolor="#EFEFEF" border="0" height="31" width="1782">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#333333;"><strong>PARTICIPANTS</strong></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:284********************-->
+<style type="text/css">table.table284 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table284header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table284footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table284RowEven{}
+.table284RowOdd{background-color:#cdcdcd;}
+.table284col0{text-align:left;}
+.table284col1{text-align:left;}
+.table284col2{text-align:left;}
+.table284col3{text-align:left;}
+</style>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:16********************-->
+<style type="text/css">table.table16 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table16header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table16footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table16RowEven{border:solid black 1px;}
+.table16RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table16col0{border:solid black 1px;text-align:left;}
+.table16col1{border:solid black 1px;text-align:left;}
+.table16col2{border:solid black 1px;text-align:left;}
+</style>
+<table class="table16">
+	<tbody>
+		<tr>
+			<th class="table16header">Nom</th>
+			<th class="table16header">Statut</th>
+			<th class="table16header">RACI</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table16</class>
+<listname>participants__r</listname>
+<column>Participant__r.name</column>
+<column>statut__c</column>
+<column>raci__c</column>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:16********************--><br />
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:284********************-->
+<table bgcolor="#EFEFEF" border="0" height="31" width="1788">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="color:#333333;"><strong>&nbsp;IDA</strong></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:828********************-->
+<style type="text/css">table.table828 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table828header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table828footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table828RowEven{border-top:solid black 1px;border-bottom:solid black 1px;}
+.table828RowOdd{background-color:#cdcdcd;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table828col0{border-top:solid black 1px;border-bottom:solid black 1px;border-left:solid black 1px;text-align:left;}
+.table828col1{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col2{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col3{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col4{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col5{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table828col6{border-top:solid black 1px;border-bottom:solid black 1px;border-right:solid black 1px;text-align:left;}
+</style>
+<table class="table828">
+	<tbody>
+		<tr>
+			<th class="table828header">N°</th>
+			<th class="table828header">IDA</th>
+			<th class="table828header">Sujet</th>
+			<th class="table828header">Description</th>
+			<th class="table828header">Affecté à</th>
+			<th class="table828header">Statut</th>
+			<th class="table828header">Date attendue</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table828</class>
+<listname>tasks</listname>
+<column>Number__c</column>
+<column>ida__c</column>
+<column>Subject</column>
+<column>description</column>
+<column>AssignedTo__c</column>
+<column>status__c</column>
+<column>Date_Attendue__c</column>
+<orderby>Number__c ASC</orderby>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<br />
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:828********************-->
+<table bgcolor="#EFEFEF" border="0" height="31" width="1788">
+	<tbody>
+		<tr>
+			<td>
+			<div><span style="font-family:arial,helvetica,sans-serif;"><span style="background-color: rgb(239, 239, 239);"><b>REQUIREMENTS</b></span></span></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<!-- ******************** START RELATED LIST SECTION UNIQUEID:251********************-->
+<style type="text/css">table.table251 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table251header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table251footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table251RowEven{border:solid black 1px;}
+.table251RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table251col0{border:solid black 1px;text-align:left;}
+.table251col1{border:solid black 1px;text-align:left;}
+.table251col2{border:solid black 1px;text-align:left;}
+.table251col3{border:solid black 1px;text-align:left;}
+.table251col4{border:solid black 1px;text-align:left;}
+.table251col5{border:solid black 1px;text-align:left;}
+</style>
+<table class="table251">
+	<tbody>
+		<tr>
+			<th class="table251header" style="width: 163px;">Reference RFP</th>
+			<th class="table251header" style="width: 402px;">Titre</th>
+			<th class="table251header" style="width: 226px;">Statut</th>
+			<th class="table251header" style="width: 199px;">Type</th>
+			<th class="table251header" style="width: 192px;">Maître</th>
+		</tr>
+		<!--{{!
+<lineitems><class>table251</class>
+<listname>exigences__r</listname>
+<column>rfp_reference__c</column>
+<column>titre__c</column>
+<column>statut__c</column>
+<column>type__c</column>
+<column>Processus__r.titre__c</column>
+<column>MasterRequirement__r.rfp_reference__c</column>
+</lineitems>
+}}-->
+	</tbody>
+</table>
+<!-- ******************** END RELATED LIST SECTION UNIQUEID:251********************-->
+
+<div style="text-align: center;"><strong><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:20px;color:#808080;">END OF DOCUMENT</span></span></strong></div>
+<style type="text/css">
+</style>
+<br />
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table281 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table281header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table281footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table281RowEven{}
+.table281RowOdd{background-color:#cdcdcd;}
+.table281col0{text-align:left;}
+.table281col1{text-align:left;}
+.table281col2{text-align:left;}
+.table281col3{text-align:left;}
+</style>
+<style type="text/css">table.table130 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table130header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table130footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table130RowEven{border:solid black 1px;}
+.table130RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table130col0{border:solid black 1px;text-align:left;}
+.table130col1{border:solid black 1px;text-align:left;}
+.table130col2{border:solid black 1px;text-align:left;}
+.table130col3{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table603 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table603header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table603footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table603RowEven{border:solid black 1px;}
+.table603RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table603col0{border:solid black 1px;text-align:left;}
+.table603col1{border:solid black 1px;text-align:left;}
+.table603col2{border:solid black 1px;text-align:left;}
+.table603col3{border:solid black 1px;text-align:left;}
+.table603col4{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<br />
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table272 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table272header {text-align:center;font-weight:bold;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table272footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table272RowEven{}
+.table272RowOdd{background-color:#cdcdcd;}
+.table272col0{text-align:left;}
+.table272col1{text-align:left;}
+.table272col2{text-align:left;}
+.table272col3{text-align:left;}
+</style>
+<style type="text/css">table.table864 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table864header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table864footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table864RowEven{border-top:solid black 1px;border-bottom:solid black 1px;}
+.table864RowOdd{background-color:#cdcdcd;border-top:solid black 1px;border-bottom:solid black 1px;}
+.table864col0{border-top:solid black 1px;border-bottom:solid black 1px;border-left:solid black 1px;text-align:left;}
+.table864col1{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col2{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col3{border-top:solid black 1px;border-bottom:solid black 1px;text-align:left;}
+.table864col4{border-top:solid black 1px;border-bottom:solid black 1px;border-right:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">table.table750 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table750header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table750footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table750RowEven{border:solid black 1px;}
+.table750RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table750col0{border:solid black 1px;text-align:left;}
+.table750col1{border:solid black 1px;text-align:left;}
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">
+</style>
+<style type="text/css">table.table306 {border:solid black 1px; border-collapse:collapse; border-spacing:0px;font-family:Arial,Helvetica,sans-serif; font-size:10pt; width:100% }
+.table306header {text-align:center;font-weight:bold;border:solid black 1px;color:#FFFFFF;background-color:#000000;}
+.table306footer {text-align:right;font-weight:bold;border:solid black 1px; height: 30px}
+.table306RowEven{border:solid black 1px;}
+.table306RowOdd{background-color:#cdcdcd;background-color:#a8a8a8;border:solid black 1px;}
+.table306col0{border:solid black 1px;text-align:left;}
+.table306col1{border:solid black 1px;text-align:left;}
+.table306col2{border:solid black 1px;text-align:left;}
+.table306col3{border:solid black 1px;text-align:left;}
+</style>
